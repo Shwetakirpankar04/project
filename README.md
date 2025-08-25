@@ -1,5 +1,5 @@
 
-Loan Approval Prediction
+Loan Approval Prediction:
 
 📌 Objective:
 Predict whether a loan application will be approved (1) or rejected (0) based on applicant and credit attributes.
