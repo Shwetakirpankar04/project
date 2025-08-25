@@ -5,7 +5,9 @@ Loan Approval Prediction
 Predict whether a loan application will be approved (1) or rejected (0) based on applicant and credit attributes.
 
 📊 Dataset:
+
 Categorical Features: Gender, Married, Education, Self_Employed, Property_Area
+
 Numerical Features: ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History
 
 Target: Loan_Status (Y/N → 1/0)
