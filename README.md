@@ -16,7 +16,7 @@ Dropped: Loan_ID (identifier)
 
 ⚙️ Steps Performed
 
-Data Cleaning & Preprocessing
+Data Cleaning & Preprocessing:
 
 Removed duplicates, handled missing values (median for numeric, mode for categorical).
 
@@ -24,19 +24,19 @@ Encoded categorical variables with One-Hot Encoding.
 
 Fixed right-skewed numeric features with log transformation.
 
-Exploration & Feature Importance
+Exploration & Feature Importance:
 
 Correlation analysis showed Credit_History as the most influential factor.
 
 Top features: ApplicantIncome, Credit_History, CoapplicantIncome.
 
-Modeling
+Modeling:
 
 Train/Test split (80/20), SMOTE applied for class balancing.
 
 RandomForestClassifier trained with scaled features.
 
-Evaluation
+Evaluation:
 
 Accuracy: ~95%
 
@@ -44,7 +44,7 @@ Confusion Matrix showed good balance between approvals and rejections.
 
 Both classes achieved high precision and recall.
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
 
 Python: pandas, numpy, matplotlib, seaborn
 
@@ -52,7 +52,7 @@ Modeling: scikit-learn, imblearn (SMOTE)
 
 Encoding: category_encoders
 
-✅ Results
+✅ Results:
 
 Loan approval prediction achieved ~95% accuracy.
 
